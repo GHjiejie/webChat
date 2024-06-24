@@ -1,13 +1,8 @@
-// src/components/Chat.tsx
-import React from "react";
-
-const Chat: React.FC = () => {
+export default function Login() {
   return (
     <div>
-      <h1>Chat Room</h1>
-      {/* Chat component content goes here */}
+      <h1>chat</h1>
+      <p>Welcome to the chat page!</p>
     </div>
-  );
-};
-
-export default Chat;
+  )
+}
