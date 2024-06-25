@@ -1,0 +1,56 @@
+/* home.css */
+
+/* Flex container for overall layout */
+/* .flex-container {
+  display: flex;
+  gap: 16px; 
+  flex-wrap: wrap;
+  height: 100vh; 
+  background-color: red;
+} */
+
+/* Layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #ff0000; /* Adjust background as needed */
+}
+
+/* Sider */
+.sider {
+  background-color: #0015290f;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Header */
+.header {
+  background-color: #0084ff;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  line-height: 64px; /* Height of Header */
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Content */
+.content {
+  background: #fff;
+  min-height: 280px;
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #82ca9a;
+  line-height: 48px; /* Height of Footer */
+  padding: 0;
+  position: relative;
+}
