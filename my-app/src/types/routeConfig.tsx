@@ -3,4 +3,5 @@ export interface RouteConfig {
   name: string;
   exact: boolean;
   component: React.ComponentType<any>;
+  redirectTo?: string;
 }
